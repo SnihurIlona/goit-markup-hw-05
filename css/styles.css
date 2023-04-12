@@ -479,6 +479,7 @@ p{
 
 .close-btn{
     display: block;
+    position: absolute;
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
