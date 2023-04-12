@@ -534,6 +534,10 @@ p{
     margin-right: 24px;
 }
 
+.button{
+    cursor: pointer;
+}
+
 /* Portfolio */
 
 .section-portfolio{
