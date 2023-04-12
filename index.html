@@ -54,12 +54,14 @@
     <main>
       <!-- Section 1 -->
       <section class="section-info">
-        <div class="backdrop is-hidden"></div>
+        <div data-modal class="backdrop is-hidden"></div>
         <div class="modal">
-          <button>X</button>
+          <button data-modal-close>X</button>
         </div>
         <h1 class="caption">Effective Solutions for Your Business</h1>
-        <button class="main-button" type="button">Order Service</button>
+        <button class="main-button" type="button" data-modal-open>
+          Order Service
+        </button>
       </section>
       <!-- Section 2 -->
       <section class="section-items">
