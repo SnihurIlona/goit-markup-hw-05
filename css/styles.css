@@ -460,17 +460,19 @@ p{
 }
 
 .modal-button {
-    position: absolute;
+    position: relative;
     width: 24px;
     height: 24px;
     left: 876px;
     top: 112px;
     bottom: 0;
     right: 0;
+    padding: 0;
 }
 
 .close-btn{
     display: block;
+    position: absolute;
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
