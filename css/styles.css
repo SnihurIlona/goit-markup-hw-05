@@ -40,22 +40,23 @@ p{
 .header-logo {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
-        text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        color: #4D5AE5;
-        margin-right: 76px;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .second-color {
     letter-spacing: 0.03em;
-        text-transform: uppercase;
+    text-transform: uppercase;
     color: #2E2F42;
 }
 
 .menu{
     position: relative;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu::after{
@@ -110,12 +111,12 @@ p{
 .header-site .link {
     display: block;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        padding-top: 24px;
-        padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-site .link:hover, .header-site .link:focus {
@@ -139,9 +140,9 @@ p{
 
 .header-wrap .link {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
@@ -167,11 +168,11 @@ p{
     margin-right: auto;
     width: 496px;
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: var(--caption-text-color);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--caption-text-color);
 }
 
 
@@ -184,11 +185,11 @@ p{
 
 .subtitle {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--title-text-color);
-        margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
 }
 
 .features-list :not(:last-child){
@@ -213,11 +214,11 @@ p{
 
 .features {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        padding: 0;
-        margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 0;
+    margin: 0;
 }
 
 .features:not(:last-child){
@@ -234,17 +235,17 @@ p{
 .secondary-caption {
     min-width: 323px;
     padding: 0;
-        margin-top: 120px;
-        margin-bottom: 72px;
-        margin-left: auto;
-        margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--title-text-color);     
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color);     
 }
 
 .photo{
@@ -287,10 +288,10 @@ p{
 
 .position {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team-info{
@@ -332,7 +333,7 @@ p{
 .customers{
     min-width: 183px;
     text-align: center;
-        margin-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .emblem{
@@ -375,11 +376,11 @@ p{
 
 .description {
     width: 264px;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #F4F4FD;
-        margin-top: 16px;
-        margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+    margin-top: 16px;
+    margin-bottom: 0;
 }
 
 .footer-logo {
@@ -390,14 +391,14 @@ p{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-        text-transform: uppercase;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
 .second-col {
     min-width: 71px;
     letter-spacing: 0.03em;
-        text-transform: uppercase;
+    text-transform: uppercase;
     color: #F4F4FD;
 }
 
@@ -415,12 +416,12 @@ p{
 
 .icon-footer{
     display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #4D5AE5;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
 }
 
 .icon-footer:hover, .icon-footer:focus{
@@ -488,16 +489,16 @@ p{
     font-family: "Roboto",
         sans-serif;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        color: var(--caption-text-color);
-        width: 169px;
-        height: 56px;
-        list-style: none;
-        border: none;
-        border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--caption-text-color);
+    width: 169px;
+    height: 56px;
+    list-style: none;
+    border: none;
+    border-radius: 4px;
 }
 
 .main-button:hover, .main-button:focus {
@@ -550,11 +551,11 @@ p{
 
 .button-nav{
     display: flex;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 72px;
-        justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    justify-content: center;
 }
 
 .features-info{
@@ -569,19 +570,19 @@ p{
 
 .main-features {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        margin-bottom: 8px;
-        color: var(--title-text-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: var(--title-text-color);
 }
 
 .item {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 img{
