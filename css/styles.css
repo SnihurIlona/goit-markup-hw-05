@@ -471,6 +471,7 @@ p{
     padding: 0;
     border-radius: 50%;
     border: none;
+    cursor: pointer;
 }
 
 .close-btn{
@@ -532,11 +533,7 @@ p{
     margin-right: 24px;
 }
 
-.button{
-    cursor: pointer;
-}
-
-/* Portfolio */
+/* ...........Portfolio................ */
 
 .section-portfolio{
     padding-top: 96px;
