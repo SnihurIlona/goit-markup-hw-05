@@ -202,10 +202,10 @@ p{
 
 .modal-button{
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    width: 24px;
+    height: 24px;
+    left: 876px;
+    top: 112px;
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
