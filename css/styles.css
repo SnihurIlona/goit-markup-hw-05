@@ -467,10 +467,13 @@ p{
     top: 112px;
     bottom: 0;
     right: 0;
-    background: #E7E9FC;
-    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.close-btn{
+    display: block;
+    background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 /* Buttons */
 .main-button {
