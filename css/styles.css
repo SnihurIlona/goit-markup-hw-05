@@ -535,7 +535,7 @@ p{
     margin-right: 24px;
 }
 
-/* ...........Portfolio................ */
+/* ...............Portfolio................ */
 
 .section-portfolio{
     padding-top: 96px;
@@ -595,4 +595,18 @@ img{
 
 .about-photo:hover, .about-photo:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.photo-list-wrapper{
+    position: relative;
+    background-color: #4D5AE5;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #F4F4FD;
 }
