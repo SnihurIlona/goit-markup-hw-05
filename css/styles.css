@@ -460,12 +460,12 @@ p{
 }
 
 .modal-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     top: 24px;
     right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 24px;
     height: 24px;
     padding: 0;
