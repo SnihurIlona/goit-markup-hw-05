@@ -601,7 +601,7 @@ img{
     position: relative;
 }
 
-.overlay:hover{
+.overlay{
     position: absolute;
     left: 0;
     top: 0;
