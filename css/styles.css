@@ -200,6 +200,14 @@ p{
     border-radius: 4px;
 }
 
+.modal-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 /* Section 2 subtitle */
 
 .section-items{
