@@ -621,7 +621,7 @@ img{
     background-color: #4D5AE5;
 }
 
-.photo-list:hover .overlay,
-.photo-list:focus .overlay{
+.about-photo:hover .overlay,
+.about-photo:focus .overlay{
     transform: translate(0, 0);
 }
