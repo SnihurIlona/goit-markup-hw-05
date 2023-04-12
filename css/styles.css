@@ -54,6 +54,15 @@ p{
     color: #2E2F42;
 }
 
+.menu:after{
+    content: "";
+    display: block;
+    width: 48px;
+    height: 4px;
+    background: #404BBF;
+    border-radius: 2px;
+}
+
 /* List */
 .list {
     list-style: none;
