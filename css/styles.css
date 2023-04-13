@@ -486,12 +486,6 @@ p{
     cursor: pointer;
 }
 
-.close-btn{
-    display: block;
-    background-color: #E7E9FC;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
 /* Buttons */
 .main-button {
     background-color: #4D5AE5;
